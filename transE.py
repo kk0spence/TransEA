@@ -24,7 +24,7 @@ class Config(object):
         self.nbatches = 100
         self.entity = 0
         self.relation = 0
-        self.trainTimes = 2000
+        self.trainTimes = 3000
         self.learning_rate = 0.1
         self.margin = 4.0
 
