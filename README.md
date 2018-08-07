@@ -1,27 +1,27 @@
-# TensorFlow-TransEA
+# TransEA
 
-The implementation of TransEA[1] for knowledge representation learning (KRL) and knowledge graph completion.
+The implementation of TransEA [1] for knowledge representation learning (KRL) and knowledge graph completion.
 
-These codes base on TransE[2] and [[TensorFlow-TransX]] (https://github.com/thunlp/TensorFlow-TransX)
+These codes base on TransE [2] and [[TensorFlow-TransX]](https://github.com/thunlp/TensorFlow-TransX)
 
 
 # Data
 
-Datasets are required in the following format, containing three files:
+Datasets are required in the following format:
 
-triple2id.txt: training file, the first line is the number of triples for training. Then the follow lines are all in the format (e1, e2, rel).
+- triple2id.txt: training file, the first line is the number of triples for training. Then the follow lines are all in the format (e1, e2, rel).
 
-valid2id.txt
+- valid2id.txt: the same format as triple2id.txt
 
-test2id.txt
+- test2id.txt: the same format as triple2id.txt
 
-entity2id.txt: all entities and corresponding ids, one per line. The first line is the number of entities.
+- entity2id.txt: all entities and corresponding ids, one per line. The first line is the number of entities.
 
-relation2id.txt: all relations and corresponding ids, one per line. The first line is the number of relations.
+- relation2id.txt: all relations and corresponding ids, one per line. The first line is the number of relations.
 
-attr2id.txt: all numeric attributes and corresponding ids. The first line is the number of attribute relation.
+- attr2id.txt: all numeric attributes and corresponding ids. The first line is the number of attribute relation.
 
-attrm2id.txt: attributive triplets, format (e, a, v), v is normalized by Max-Min method.
+- attrm2id.txt: attributive triplets, the first line is the number of attributive triplets. Format (e, a, v), v is normalized by Max-Min method.
 
 
 # Compile
