@@ -1,0 +1,26 @@
+25
+hasNumberOfPeople	0
+hasArea	1
+wasCreatedOnDate	2
+hasLongitude	3
+hasPopulationDensity	4
+hasLatitude	5
+wasBornOnDate	6
+hasHeight	7
+wasDestroyedOnDate	8
+diedOnDate	9
+hasLength	10
+happenedOnDate	11
+hasUnemployment	12
+hasEconomicGrowth	13
+hasRevenue	14
+hasGini	15
+hasExpenses	16
+hasInflation	17
+hasGDP	18
+hasImport	19
+hasExport	20
+hasPoverty	21
+hasBudget	22
+hasWeight	23
+hasDuration	24
