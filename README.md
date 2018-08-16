@@ -1,8 +1,8 @@
-# TransEA
+# TransEA [1]
 
-The implementation of TransEA [1] for knowledge representation learning (KRL) and knowledge graph completion.
+This is an implementation of the paper [Knowledge Graph Embedding with Numeric Attributes of Entities](http://www.aclweb.org/anthology/W18-3017) .
 
-These codes base on TransE [2] and [[TensorFlow-TransX]](https://github.com/thunlp/TensorFlow-TransX)
+These codes base on TransE [2] and [TensorFlow-TransX](https://github.com/thunlp/TensorFlow-TransX)
 
 
 # Data
@@ -66,7 +66,7 @@ To test your models:
 
 # Citation
 
-If you use the code, please kindly cite the papers listed in our reference.
+If you use the code or datasets, please kindly cite the papers listed in our reference.
 
 # Reference
 [1] Yanrong Wu, Zhichun Wang. Knowledge Graph Embedding with Numeric Attributes of Entities. Proceedings of The Third Workshop on Representation Learning for NLP. 2018.
